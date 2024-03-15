@@ -7,7 +7,7 @@ body {
   color: white;
   background-color: #1b1b1b;
   background-image: url(/styles/images/bg1.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 h1,
@@ -58,4 +58,7 @@ button {
 }
 .new_row {
   margin-top: 0;
+}
+.gallery {
+  margin-top: 400px;
 }
