@@ -49,6 +49,10 @@ button {
   padding: 18px 30px;
   margin-top: 50px;
 }
+img {
+  min-height: 280px;
+  max-height: 280px;
+}
 .hero {
   text-align: center;
   display: block;
@@ -61,4 +65,15 @@ button {
 }
 .gallery {
   margin-top: 400px;
+}
+.row {
+  min-width: 1152px;
+  max-width: 1152px;
+}
+.end-img {
+  text-align: right;
+}
+
+.first-img {
+  width: 440px;
 }
