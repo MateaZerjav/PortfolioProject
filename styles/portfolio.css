@@ -58,6 +58,7 @@ button {
   color: rgba(39, 33, 66, 1);
   padding: 18px 30px;
   margin-top: 50px;
+  width: 200px;
 }
 .about p {
   max-width: 600px;
@@ -80,9 +81,25 @@ button {
 }
 .camera img {
   padding: 20px;
+  height: 80px;
+  width: 100px;
 }
-.camera p {
+.camera-p {
+  font-family: var(--heading-font-family);
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
+  height: 5rem;
+  line-height: 5rem;
+}
+.gallery-row {
+  min-width: 1152px;
+  max-width: 1152px;
+}
+
+.first-img {
+  width: 440px;
+}
+.gallery-row img {
+  height: 280px;
 }
