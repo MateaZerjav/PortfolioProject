@@ -130,12 +130,16 @@ footer {
   padding-top: 6px;
 }
 
-.icons {
+.social-links {
   padding-top: 5px;
 }
-.icons i {
+.social-links i {
   padding-left: 10px;
   padding-right: 10px;
+  transition: all 100sm ease-in-out;
+}
+.social-links i:hover {
+  font-size: 20px;
 }
 .copyright {
   padding-top: 5px;

@@ -114,6 +114,14 @@ footer {
   margin: 30px;
   text-align: left;
 }
+.social-links i {
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 100sm ease-in-out;
+}
+.social-links i:hover {
+  font-size: 20px;
+}
 .icons {
   text-align: left;
 }
@@ -176,10 +184,10 @@ footer {
   padding-top: 20px;
 }
 
-.icons {
+.social-links {
   padding-top: 5px;
 }
-.icons i {
+.social-links i {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -207,6 +215,9 @@ footer {
   }
   .footer-box {
     font-size: 10px;
+  }
+  .social-links {
+    text-align: left;
   }
 }
 @media (max-width: 517px) {
