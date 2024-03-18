@@ -78,6 +78,10 @@ nav a:hover {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
+footer {
+  background-color: rgba(40, 35, 35, 1);
+  font-size: 16px;
+}
 
 .gallery img {
   min-height: 280px;
@@ -114,6 +118,29 @@ nav a:hover {
 .nav-bar {
   background-color: rgba(32, 32, 32, 1);
 }
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sheCodes {
+  padding-top: 6px;
+}
+
+.icons {
+  padding-top: 5px;
+}
+.icons i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.copyright {
+  padding-top: 5px;
+}
+
 @media (max-width: 517px) {
   h1 {
     font-size: 36px;
