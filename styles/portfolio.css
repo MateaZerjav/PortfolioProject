@@ -103,6 +103,20 @@ button {
 .gallery-row img {
   height: 280px;
 }
+.gallery-h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.gallery img {
+  min-height: 280px;
+  max-height: 280px;
+}
+@media (max-width: 992px) {
+  .gallery img {
+    text-align: start;
+    margin: 10px auto;
+  }
+}
 @media (max-width: 517px) {
   h1 {
     font-size: 36px;
