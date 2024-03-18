@@ -205,6 +205,9 @@ footer {
     padding-left: 20px;
     margin-top: 10px;
   }
+  .footer-box {
+    font-size: 10px;
+  }
 }
 @media (max-width: 517px) {
   h1 {
