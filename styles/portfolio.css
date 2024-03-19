@@ -103,6 +103,9 @@ footer {
   background-color: rgba(40, 35, 35, 1);
   font-size: 16px;
 }
+.nav-bar {
+  margin-bottom: 5px;
+}
 .about p {
   max-width: 600px;
   line-height: 2;
@@ -178,6 +181,8 @@ footer {
 .footer-box {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .sheCodes {
@@ -188,12 +193,17 @@ footer {
   padding-top: 5px;
 }
 .social-links i {
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
 .copyright {
-  padding-top: 5px;
+  padding-top: 20px;
 }
+.last-p {
+  margin-bottom: 200px;
+}
+
 @media (max-width: 992px) {
   .gallery img {
     text-align: start;
