@@ -146,6 +146,16 @@ footer {
   font-family: var(--heading-font-family);
   font-weight: 400;
 }
+.open-sourced p {
+  color: #ffffff71;
+}
+.open-sourced a {
+  color: #ffffff71;
+  text-decoration: none;
+}
+.open-sourced a:hover {
+  color: #ffffff;
+}
 
 @media (max-width: 517px) {
   h1 {

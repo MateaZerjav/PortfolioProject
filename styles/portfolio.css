@@ -209,6 +209,10 @@ footer {
     text-align: start;
     margin: 10px auto;
   }
+  h3,
+  h4 {
+    text-align: center;
+  }
   nav ul {
     padding-right: 50px;
   }
@@ -219,6 +223,9 @@ footer {
   nav {
     padding: 15px 0;
   }
+  button {
+    margin-left: 90px;
+  }
   .logo {
     padding-left: 20px;
     margin-top: 10px;
@@ -228,6 +235,14 @@ footer {
   }
   .social-links {
     text-align: left;
+  }
+  .camera {
+    margin-left: 50px;
+  }
+  .icons i {
+    margin-right: 0;
+    margin-left: 110px;
+    text-align: center;
   }
 }
 @media (max-width: 517px) {
